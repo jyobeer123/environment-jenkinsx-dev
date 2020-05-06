@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ci-cd-jenkins-x-kubernetes-packt
+    provider: github
+    repository: express-hello
+  name: ci-cd-jenkins-x-kubernetes-packt-express-hello
+spec:
+  description: Imported application for ci-cd-jenkins-x-kubernetes-packt/express-hello
+  httpCloneURL: https://github.com/ci-cd-jenkins-x-kubernetes-packt/express-hello.git
+  org: ci-cd-jenkins-x-kubernetes-packt
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: express-hello
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ci-cd-jenkins-x-kubernetes-packt/express-hello.git
