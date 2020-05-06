@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/ci-cd-jenkins-x-kubernetes-packt/spring-boot-http-gradle.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: ci-cd-jenkins-x-kubernetes-packt
+  repo: express-hello
+  url: https://github.com/ci-cd-jenkins-x-kubernetes-packt/express-hello.git
+  version: ""
+  versionURL: ""
